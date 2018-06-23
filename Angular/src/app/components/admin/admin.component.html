@@ -1,0 +1,19 @@
+<div>
+  <button routerLink="/createform">Create New</button>
+  <table>
+    <tr>
+      <th>First Name</th>
+      <th>Surname</th>
+      <th>Account Number</th>
+    </tr>
+    <tr *ngFor="let account of accounts">
+      <td>{{account.firstName}}</td>
+      <td>{{account.surname}}</td>
+      <td>{{account.accountNumber}}</td>
+      <td>
+        <button [routerLink]="['/updateaccount', account.id]">Update</button>
+        <button (click)="deleteAccount(account.id)">Delete</button>
+      </td>
+    </tr>
+  </table>
+</div>

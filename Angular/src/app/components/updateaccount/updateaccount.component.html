@@ -1,0 +1,19 @@
+<form [formGroup]="accountForm" (ngSubmit)="submitRegistration(account.id)" novalidate>
+  <div *ngIf="validMessage != ''">
+    <h3 class="has-info">{{validMessage}}</h3>
+  </div>
+  <div class="form-group">
+    <label>First Name</label>
+    <input type="text" formControlName="firstName" required [ngModel]=account.firstName/>
+  </div>
+  <div class="form-group">
+    <label>Surname</label>
+    <input type="email" formControlName="surname" required [ngModel]=account.surname/>
+  </div>
+  <div class="form-group">
+    <label>Account Number</label>
+    <input type="text" formControlName="accountNumber" required [ngModel]=account.accountNumber/>
+  </div>
+  <button type="submit">Submit</button>
+  <button  routerLink="/admin">Return</button>
+</form>
