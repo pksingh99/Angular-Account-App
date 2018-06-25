@@ -51,10 +51,10 @@ button:focus {
   background: rgb(202, 60, 60);
 }
 .delete-button:hover {
-  background: rgb(192, 50, 50);
+  background: rgb(222, 80, 80);
 }
 .delete-button:active {
-  background: rgb(222, 80, 80);
+  background: rgb(192, 50, 50);
 }
 
 .view-button {
