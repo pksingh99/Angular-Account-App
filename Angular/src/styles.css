@@ -25,13 +25,38 @@ button {
   border: solid 1px;
   width: 30px;
   height: 30px;
+
 }
+button:hover {
+  background: rgb(76, 194, 231);
+}
+button:active {
+  background: rgb(46, 164, 201);
+}
+button:focus {
+  outline: none;
+}
+
 .create-button {
   background: rgb(28, 184, 65);
 }
+.create-button:hover {
+  background: rgb(38, 194, 75);
+}
+.create-button:active {
+  background: rgb(8, 164, 45);
+}
+
 .delete-button {
   background: rgb(202, 60, 60);
 }
+.delete-button:hover {
+  background: rgb(192, 50, 50);
+}
+.delete-button:active {
+  background: rgb(222, 80, 80);
+}
+
 .view-button {
   width: 150px;
 }
