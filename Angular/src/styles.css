@@ -1,1 +1,59 @@
-/* You can add global styles to this file, and also import other style files */
+h1 {
+  font-family: Helvetica;
+}
+h2 {
+  font-family: Helvetica;
+  text-align: center;
+}
+th {
+  font-family: Helvetica;
+  border:none;
+}
+td {
+  font-family: Helvetica;
+  color: rgb(40, 40, 40);
+  border:none;
+  padding:0px;
+}
+button {
+  font-family: Helvetica;
+  margin:5px;
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: rgb(66, 184, 221);
+  border: solid 1px;
+  width: 30px;
+  height: 30px;
+}
+.create-button {
+  background: rgb(28, 184, 65);
+}
+.delete-button {
+  background: rgb(202, 60, 60);
+}
+.view-button {
+  width: 150px;
+}
+label {
+  font-family: Helvetica;
+  font-size: 14px;
+  width: 150px;
+  display:inline-block
+}
+input {
+  font-family: Helvetica;
+  font-size: 14px;
+}
+.form-group {
+  margin: 10px;
+}
+.submit-button {
+
+}
+tr {
+  text-align: center;
+}
+tr:nth-child(even) {
+  background-color: rgb(240, 240, 240);
+}

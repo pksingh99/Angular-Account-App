@@ -1,5 +1,5 @@
 <div>
-  <button routerLink="/createform">Create New</button>
+  <button class="create-button" routerLink="/createform"><i class="fa fa-plus-square"></i></button>
   <table>
     <tr>
       <th>First Name</th>
@@ -11,8 +11,8 @@
       <td>{{account.surname}}</td>
       <td>{{account.accountNumber}}</td>
       <td>
-        <button [routerLink]="['/updateaccount', account.id]">Update</button>
-        <button (click)="deleteAccount(account.id)">Delete</button>
+        <button [routerLink]="['/updateaccount', account.id]"><i class="fa fa-edit"></i></button>
+        <button class="delete-button" (click)="deleteAccount(account.id)"><i class="fa fa-remove"></i></button>
       </td>
     </tr>
   </table>

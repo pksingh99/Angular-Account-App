@@ -14,6 +14,8 @@
     <label>Account Number</label>
     <input type="text" formControlName="accountNumber" required [ngModel]=account.accountNumber/>
   </div>
-  <button type="submit">Submit</button>
-  <button  routerLink="/admin">Return</button>
+  <div style="bottom:20%">
+    <button class="create-button" type="submit"><i class="fa fa-check-circle"></i></button>
+    <button routerLink="/admin"><i class="fa fa-mail-reply"></i></button>
+  </div>
 </form>
