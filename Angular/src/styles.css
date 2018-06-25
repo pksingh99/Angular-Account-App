@@ -11,6 +11,7 @@ table{
 th {
   font-family: Helvetica;
   border:none;
+  width: 200px;
 }
 td {
   font-family: Helvetica;
